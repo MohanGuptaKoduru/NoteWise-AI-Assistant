@@ -17,8 +17,9 @@ def main():
     tools = [search_my_notes,DuckDuckGoSearchTool(),VisitWebpageTool(),FinalAnswerTool()],
     model=model,
     max_steps=20,
+    planning_interval=2
     )
-    agent.planning_interval(2)
+ 
     converstion_history = []
     print("I can search through your personal notes. Just ask me anything.")
     while True:
