@@ -1,0 +1,10 @@
+smolagents
+llama-index
+llama-index-embeddings-huggingface
+llama-index-vector-stores-chroma
+chromadb
+huggingface-hub
+mistralai
+duckduckgo-search
+requests
+python-dotenv
